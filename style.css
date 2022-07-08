@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  overflow: hidden;
+}
+
+#inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#inputs, .welcome-text, #turn{
+    padding-top: 1%;
+}
+.btn{
+  margin-top: 1%;
+
+}
+#resultText{
+  padding-top: 2%;
+
+}
+@media only screen and (max-width: 500px){
+  #inputs, .welcome-text, #turn{
+      padding-top: 10%;
+  }
+  .btn{
+    margin-bottom: 3%;
+    margin-right: 1%;
+  }
+  #resultText{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #gif{
+      padding-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 1200px){
+  #inputs, .welcome-text, #turn{
+      padding-top: 4%;
+  }
+  .btn{
+    margin-bottom: 3%;
+    margin-right: 1%;
+  }
+  #resultText{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  #gif{
+      padding-bottom: 5%;
+  }
+
+}
+
+
+.welcome-text{
+font-size: 3rem;
+  font-weight: bold;
+  color: purple;
+}
+
+#turn{
+  font-size: 1.5rem;
+    color: purple;
+}
+
+.btn{
+  height: 80px;
+  width: 80px;
+  border: 2px solid purple;
+  color: purple;
+  font-size: 2rem;
+  text-align: center;
+  
+
+}
+
+#reset-btn, #resultText, #gif{
+visibility: hidden;
+  color: purple;
+}
+
+
+
+#gif{
+   height: 150px;
+   width: 150px;
+
+}
+
+#reset-btn{
+  height: 50px;
+  width: 150px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+}
