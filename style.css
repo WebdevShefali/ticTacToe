@@ -27,10 +27,13 @@ body{
 @media only screen and (max-width: 500px){
   #inputs, .welcome-text, #turn{
       padding-top: 10%;
+    font-size: 4rem;
   }
   .btn{
     margin-bottom: 3%;
     margin-right: 1%;
+    height: 100px;
+  width: 100px;
   }
   #resultText{
     padding-top: 5%;
